@@ -28,7 +28,7 @@ def read_files(path="./"):
     brewery_name_encoder = load(f'{path}brewery_name_encoder.joblib')
 
     model = PytorchMultiClass(6)
-    model.load_state_dict(torch.load(f'{path}nn_final_dict.pt'))
+    model.load_state_dict(torch.load(f'{path}nn_6_layers_dict_v3.pt'))
     model.eval()
 
     return brewery_name_dict, beer_style_dict, numeric_scaler, brewery_name_encoder, model
