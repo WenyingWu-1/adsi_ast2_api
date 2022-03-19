@@ -120,7 +120,8 @@ def home():
                                     "review_taste": "Score given by reviewer regarding beer taste", 
                                     "beer_abv": "Alcohol by volume measure"},
         "Output format": "String of beer type",
-        "Link to Github": "To be updated",
+        "Link to Github (Project)": "https://github.com/WenyingWu-1/ADSI_AST2",
+        "Link to Github (API)": "https://github.com/WenyingWu-1/adsi_ast2_api"
         }
 
 @app.get('/health', status_code=200)
